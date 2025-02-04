@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  header {
+    background-color: #2d89ef;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  }
+
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  nav a:hover {
+    background-color: #575757;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .card h2 {
+    color: #2d89ef;
+  }
+
+  .card p {
+    color: #555;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bgcolor{
+    background-color:cornflowerblue;
+    color: white;
+    width: 25%;
+  }
+
+  .team{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 25px;
+    margin: 20px;
+  }
